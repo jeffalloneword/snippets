@@ -1,0 +1,2 @@
+# to test issues for not having certain labels, while not exluding issues with no labels
+AND (labels not in (2021-rightsizing, 2022-rightsizing) OR labels is EMPTY)
