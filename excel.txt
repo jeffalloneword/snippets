@@ -1,0 +1,3 @@
+// convert text like "2022-01" to data format
+
+=DATE(LEFT(A2,4),RIGHT(A2,2),"1")
