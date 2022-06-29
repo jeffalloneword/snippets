@@ -1,3 +1,5 @@
-// convert text like "2022-01" to data format
+# convert text like "2022-01" (yyyy-mm) to data format
 
 =DATE(LEFT(A2,4),RIGHT(A2,2),"1")
+
+# converts "2022-01" to Jan 1 2022 as date
