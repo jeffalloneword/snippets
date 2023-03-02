@@ -1,0 +1,5 @@
+
+# perform a lookup between two different google sheets (workbooks)
+# use the URL of the sheet you want to lookup from, might have to grant access
+
+=VLOOKUP($A2,IMPORTRANGE("https://docs.google.com/spreadsheets/d/adadi8ren833adfna","Sheet1!B2:K2282"),2,FALSE)
