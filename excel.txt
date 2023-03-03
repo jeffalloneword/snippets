@@ -1,5 +1,11 @@
 # convert text like "2022-01" (yyyy-mm) to data format
+# converts "2022-01" to Jan 1 2022 as date
 
 =DATE(LEFT(A2,4),RIGHT(A2,2),"1")
 
-# converts "2022-01" to Jan 1 2022 as date
+
+# vlookup example for handling data when no value is found in the lookup table
+
+=IF(ISERROR(VLOOKUP($B2,K8SDATA!$B$2:$C$300,1,FALSE)),0,VLOOKUP($B2,K8SDATA!$B$2:$C$300,1,FALSE))
+
+
